@@ -16,7 +16,7 @@ game.setGameStopListener(reason => {
       message = 'YOU WIN 🥳';
       break;
     case Reason.lose:
-      message = 'YOU LOST 💩';
+      message = 'GAME OVER 💩';
       break;
     case Reason.cancel:
       message = 'REPLAY';
